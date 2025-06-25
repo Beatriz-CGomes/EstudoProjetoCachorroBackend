@@ -10,6 +10,7 @@ import java.io.Serializable;
 import java.time.LocalDate;
 
 @Entity
+@Table(name = "animais")
 @Getter
 @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
