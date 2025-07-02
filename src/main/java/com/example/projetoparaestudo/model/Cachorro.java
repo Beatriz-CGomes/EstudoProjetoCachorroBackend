@@ -16,10 +16,6 @@ public class Cachorro extends Animal implements Serializable {
     private String raca;
     private Boolean vacinado;
 
-    public Cachorro(){
-        super();
-    }
-
     public Cachorro(String raca, Boolean vacinado){
         this.raca = raca;
         this.vacinado = vacinado;
