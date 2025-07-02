@@ -3,14 +3,12 @@ package com.example.projetoparaestudo.model;
 import com.example.projetoparaestudo.model.enums.Sexo;
 import com.example.projetoparaestudo.model.enums.StatusAnimal;
 import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.io.Serializable;
 
 @Entity
-@Table(name = "cachorro")
 @Getter
 @Setter
 public class Cachorro extends Animal implements Serializable {
